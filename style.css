@@ -1,0 +1,90 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #000000, #ffffff);
+    color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 20px 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+main h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.portfolio-item {
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.portfolio-item video {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.portfolio-item p {
+    margin: 0;
+    font-size: 1em;
+    color: #f4f4f4;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #000000;
+    color: white;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
