@@ -2,89 +2,113 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #000000, #ffffff);
-    color: #f4f4f4;
-    line-height: 1.6;
+    background-color: #000;
+    color: #fff;
 }
 
 header {
-    background-color: #000000;
-    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
     text-align: center;
-    padding: 50px 0;
+    border-bottom: 1px solid #444;
 }
 
-header h1 {
+.branding h1 {
+    font-size: 2.5em;
     margin: 0;
-    font-size: 3em;
 }
 
-header p {
-    margin: 0;
+.branding p {
     font-size: 1.2em;
-    font-weight: lighter;
+    margin-top: 5px;
+    color: #bbb;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    text-align: center;
-    margin: 20px 0 0;
+    margin: 20px 0 0 0;
+    display: flex;
+    gap: 20px;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
+nav a {
+    color: #fff;
     text-decoration: none;
-    color: white;
     font-weight: bold;
-    padding: 5px 10px;
 }
 
-nav ul li a:hover {
-    background-color: #575757;
-    border-radius: 5px;
+.hero {
+    background: url('hero-background.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.about {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #222;
+}
+
+.about h2 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.about p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #ccc;
 }
 
 main {
-    max-width: 900px;
-    margin: 20px auto;
     padding: 20px;
 }
 
-main h2 {
-    font-size: 2em;
-    margin-bottom: 10px;
+.video-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 
-.portfolio-item {
-    margin-bottom: 20px;
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+.video-container {
+    background-color: #111;
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
 }
 
-.portfolio-item video {
+video {
     width: 100%;
-    border-radius: 5px;
-    margin-bottom: 10px;
+    height: auto;
+    border-radius: 8px;
 }
 
-.portfolio-item p {
-    margin: 0;
-    font-size: 1em;
-    color: #f4f4f4;
+p {
+    margin: 10px 0 0 0;
 }
 
 footer {
+    background-color: #111;
+    color: #fff;
     text-align: center;
-    padding: 20px 0;
-    background-color: #000000;
-    color: white;
-    position: relative;
-    width: 100%;
-    bottom: 0;
+    padding: 20px;
+    border-top: 1px solid #444;
 }
