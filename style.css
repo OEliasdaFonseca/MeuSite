@@ -22,7 +22,7 @@ header h1 {
 header p {
     margin: 0;
     font-size: 1.2em;
-    font-weight: lighter;
+    font-weight: center;
 }
 
 nav ul {
